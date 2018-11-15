@@ -1,0 +1,113 @@
+body {
+  position: relative;
+}
+
+p {
+  padding-bottom: 20px;
+}
+
+.caption {
+  font-size: 0.9em;
+  padding-bottom: 5px;
+  margin-bottom: 0px;
+  font-style: italic;
+}
+
+.navbar-orange {
+  background-color: orangered;
+  font-weight: bold;
+}
+
+.navbar-yellow {
+  background-color: #f9d9a7;
+  font-weight: bold;
+}
+
+.navbar-yellow .nav-link {
+  color: black;
+}
+
+.nav-pills .nav-link.active {
+  background-color: orangered;
+  font-weight: bold;
+}
+
+.navbar-brand {
+  color: white;
+  padding-right: 50px;
+}
+
+.navbar-orange .nav-link,
+.navbar-orange .nav-link .disabled {
+  color: white !important;
+}
+
+.navbar-orange .nav-link:hover,
+.navbar-orange .navbar-brand:hover {
+  color: #cccccc !important;
+}
+
+.navbar-yellow .nav-link:hover {
+  color: orangered;
+  background-color: white;
+}
+
+.navbar-right a.nav-link:hover {
+  text-decoration: underline;
+}
+
+.btn-warning, .btn-warning:hover {
+  color: white;
+}
+
+.dropdown-menu {
+  border-color: orangered;
+}
+
+.dropdown-item:hover {
+  background-color: lightgray;
+}
+
+nav.navbar-yellow > nav > nav .nav-link {
+  font-weight: normal;
+}
+
+nav.navbar-yellow > nav .nav-link {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+nav.navbar-right > nav .nav-link {
+  padding-top: 0;
+  padding-bottom: 0;
+  color: orangered;
+}
+
+h1, h4, h5 {
+  color: orangered;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+h4 {
+  border-bottom: 3px solid orangered;
+}
+
+h5 {
+  background-color: #f9d9a7;
+}
+
+a { 
+  color: orangered;
+}
+
+a:hover {
+  color: orange;
+}
+
+.jobposition {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 16px;
+    padding-top: 10px;
+}
